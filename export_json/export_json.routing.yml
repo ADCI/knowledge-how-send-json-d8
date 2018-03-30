@@ -1,0 +1,7 @@
+export_json.data:
+  path: '/export'
+  defaults:
+    _controller: '\Drupal\export_json\Controller\ExportEventsController::data'
+    _title: 'Export events'
+  requirements:
+    _permission: 'access content'

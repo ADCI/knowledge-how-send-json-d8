@@ -1,0 +1,7 @@
+name: 'Export Json'
+type: module
+description: 'Module for export json.'
+core: 8.x
+package: ILA
+dependencies:
+  - serialization
